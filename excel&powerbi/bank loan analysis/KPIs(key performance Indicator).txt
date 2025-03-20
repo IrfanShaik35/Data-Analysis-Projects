@@ -1,0 +1,26 @@
+KPIs(key performance Indicator)
+--------------------------------
+
+1. Total Loan Applications: We need to calculate the total number of loan applications received during a specified period. Additionally, it is essential to monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).(ie. calculate for both MTD and MOM)
+(MoM=(MTD-PMTD)/PMTD) (PMTD- previous month to date)
+
+2. Total Funded Amount: Amount that bank agrees to that particular customer ie. total loan amount. We also want to keep an eye on the MTD Total Funded Amount and analyse the Month-over-Month (MoM) changes in this metric.(that is  calculate for both MTD and MOM)
+
+3. Total Amount Received(Total loan amount paid back to bank): Tracking the total amount received from borrowers is essential for assessing the bank's cash flow and loan repayment. We should analyse the Month-to-Date (MTD) Total Amount Received and observe the Month-over-Month (MoM) changes. (ie. calculate for both MTD and MOM)
+
+4. Average Interest Rate: Calculating the average interest rate across all loans, MTD, and monitoring the Month-over-Month (MoM) variations in interest rates will provide insights into our lending portfolio's overall cost. (ie. calculate for both MTD and MOM)
+
+5. Average Debt-to-Income Ratio (DTI): We need to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations. (ie. calculate for both MTD and MOM)
+
+6. Good loan and Bad Loan (percentage of total loan applications, total loan applications, Total Funded Amount, Total Amount Received)
+
+7. Loan status ( total loan applications, Total Funded Amount, Total Amount Received,  Average Interest Rate, Average Debt-to-Income Ratio (DTI))
+
+8. CHARTS:
+
+    a. Monthly Trends by Issue Date (Line Chart) (total loan applications, Total Funded Amount, Total Amount Received)
+    b. Regional Analysis by State (Filled Map) (total loan applications, Total Funded Amount, Total Amount Received)
+    c. Loan Term Analysis (Donut Chart) (total loan applications, Total Funded Amount, Total Amount Received)
+    d. Employee Length Analysis (Bar Chart) (total loan applications, Total Funded Amount, Total Amount Received)
+    e. Loan Purpose Breakdown (Bar Chart) (total loan applications, Total Funded Amount, Total Amount Received)
+  
