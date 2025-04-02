@@ -265,8 +265,7 @@ def pdf(uploaded_file,df):
     <style>
         body { background-color: #0f111a; color: white; font-family: Arial, sans-serif; }
         .hero-section { text-align: center; margin-top: 40px; color: white; }
-        .hero-section h5 { color: white; font-size: 40px; font-weight: bold; text-align:center; }
-        .hero-section span { color: #a855f7; } 
+        .hero-section h5 { font-size: 40px; font-weight: bold; text-align:center; }
     </style>
     <div class="hero-section">
         <h5>Download your<span> Data Report!</span></h5>
