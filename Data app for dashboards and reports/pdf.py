@@ -132,7 +132,13 @@ def pdf(uploaded_file,df):
                 pdf.set_auto_page_break(auto=True, margin=10)
 
                 pdf.add_page()
-                pdf.image("repolay.png", x=0, y=0, w=pdf.w, h=pdf.h) 
+                script_dir = os.path.dirname(os.path.abspath(__file__))
+                image_path = os.path.join(script_dir, "assets", "repolay.png")  # Use the correct folder
+
+                if os.path.exists(image_path):
+                    pdf.image(image_path, x=0, y=0, w=pdf.w, h=pdf.h)
+                else:
+                    print(f"⚠️ Warning: Image '{image_path}' not found. Skipping...")
                 pdf.ln(5)
                 # Title
                 file_name, file_extension = os.path.splitext(uploaded_file.name)  # Remove extension
