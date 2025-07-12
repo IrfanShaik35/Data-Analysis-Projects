@@ -1,0 +1,22 @@
+
+
+1) Top 5 books by revenue
+2) Average order value by customer nationality
+3) List customers who have ordered atleast 4 different genres
+4) Books never ordered
+5) Customers with the most variety in genres
+6) Top 2 highest-spending customers per country
+7) Book with highest order quantity per month
+8) Customer’s lifetime value vs. average LTV in their country
+9) Genre trends over time
+10) Author with most consistent monthly sales
+11) Top selling book in the last 8 months
+12) Longest gap between two orders for each customer
+13) Restock suggestion: Books with stock < average order quantity
+14) Customers who ordered books older than 50 years
+15) Order-to-stock ratio per book
+16) Customers who have only ever ordered a single book, but ordered it more than once
+17) Rising Reader Trend
+18) High-Spike Buying Behavior
+19) Weekend-Only Book Buyers
+20) Genre Loyalty Index
